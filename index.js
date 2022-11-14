@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const cors = require('cors');
 const mongoose = require('./conexion');
 const env = process.env;
-const port = env.PORT || 8080;
+const port = env.PORT || 8000;
 
 //Configuración
 const app = express();
